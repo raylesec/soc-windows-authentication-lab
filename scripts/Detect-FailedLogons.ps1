@@ -105,6 +105,7 @@ if ($FailedCount -ge $Threshold) {
 }
 else {
 
+
     Write-Host "Nenhum padrao suspeito detectado."
     Write-Host "Falhas encontradas: $FailedCount"
 }
